@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content h1{
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #ef3cff;
+    transition: .2s ease-in;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h1:hover{
+    color: #58b4ff;
+    cursor: pointer;
+}
